@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors      =  {'MIT' => 'ch_cuihao@foxmail.com'}
   s.source       = { :git => "https://github.com/C-HAO/OpenSSL.git", :tag => "#{s.version}" }
   s.requires_arc = true
-  s.deployment_target = '6.0'
+  s.ios.deployment_target = '6.0'
   s.framework = 'Security'
   s.vendored_frameworks = 'openssl.framework'
   
